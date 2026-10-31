@@ -1,0 +1,72 @@
+<Publish>
+	<!--Id must be set in order to update an existing mod. It is filled automatically after the first publish.-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="ResidentCleaner" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Remove broken cims that crash your save right after the simulation starts. / 清除導致存檔一開始模擬就閃退的異常市民。" />
+	<!--Long description of the mod. Supports a minimal markdown subset-->
+	<LongDescription>
+# ResidentCleaner
+
+## English
+
+A repair tool for saves that crash a few seconds after the simulation starts.
+
+Some saves end up with cims (residents currently outside their buildings) in a broken state, for example after a vehicle mod is removed, a pathfinding or AI mod is disabled, or public transport vehicles are deleted while passengers are on board. When the game tries to update these cims, it can crash without any useful error in Player.log.
+
+### How to use
+1. Back up your save first.
+2. Turn on "Start Paused" in the gameplay options, then load the save.
+3. Press Esc, open Options, then ResidentCleaner.
+4. Choose one of the buttons:
+   - Clean broken residents: deletes only cims that reference vehicles, lanes or targets that no longer exist.
+   - Clean all residents: deletes every cim currently outside. Use this if the first button is not enough.
+5. Save as a new file, then unpause and check that the city runs normally.
+
+The result (how many cims were checked and deleted) is written to Logs/ResidentCleaner.log.
+
+### Notes
+- Only the "outside" copies of cims are deleted. Citizens, households and homes are kept, and cims will leave their buildings again normally. Traffic and transit ridership may look low for a short time after cleaning.
+- The buttons only work while a city is loaded.
+- You do not need to keep this mod enabled. Turn it on only when you need to repair a save.
+- Use at your own risk and always keep a backup of your save.
+
+## 繁體中文
+
+這是一個修復工具，適用於「載入存檔後一開始模擬，幾秒內就閃退」的情況。
+
+有些存檔裡的市民（目前在建築物外活動的市民）會進入異常狀態，例如移除了車輛模組、停用了尋路或 AI 類模組，或是在乘客還在車上時刪除了公共交通車輛。遊戲更新這些市民時可能會直接閃退，而且 Player.log 裡不會留下有用的錯誤訊息。
+
+### 使用方法
+1. 先備份存檔。
+2. 在遊戲設定中開啟「開始時暫停」，然後載入存檔。
+3. 按 Esc，進入「選項」，再打開 ResidentCleaner。
+4. 選擇其中一個按鈕：
+   - 清除異常市民：只刪除引用已不存在的車輛、車道或目的地的市民。
+   - 清除所有外出市民：刪除所有目前在外活動的市民。如果第一個按鈕無法解決問題，再使用這個。
+5. 另存新檔，然後開始模擬，確認城市可以正常運作。
+
+清理結果（檢查與刪除的市民數量）會寫在 Logs/ResidentCleaner.log。
+
+### 注意事項
+- 被刪除的只是市民「外出中的分身」。市民本身、家庭和住處都會保留，之後會正常重新出門。清理後的一小段時間內，交通量和大眾運輸搭乘人數可能會偏低。
+- 按鈕只有在已載入城市時才有作用。
+- 不需要一直啟用這個模組，需要修復存檔時再開啟即可。
+- 使用風險請自行承擔，並務必保留存檔備份。
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.6.*" />
+	<!--Change log for new version. Supports a minimal markdown subset-->
+	<ChangeLog>
+- First release / 首次發佈
+- Options menu with two buttons: clean broken residents, clean all residents / 選項選單提供兩個按鈕：清除異常市民、清除所有外出市民
+	</ChangeLog>
+	   <ExternalLink Type="github" Url="https://github.com/orea1977/ResidentCleaner" />
+</Publish>

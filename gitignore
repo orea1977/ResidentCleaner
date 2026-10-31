@@ -1,0 +1,17 @@
+# Build output / 編譯產物
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Logs / 記錄檔
+*.log
+
+# OS files / 系統檔案
+Thumbs.db
+desktop.ini
+.DS_Store

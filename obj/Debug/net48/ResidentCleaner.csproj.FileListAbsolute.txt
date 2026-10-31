@@ -1,0 +1,9 @@
+C:\Users\orea\Documents\ResidentCleaner\bin\Debug\net48\ResidentCleaner.dll
+C:\Users\orea\Documents\ResidentCleaner\bin\Debug\net48\ResidentCleaner.pdb
+C:\Users\orea\Documents\ResidentCleaner\obj\Debug\net48\ResidentCleaner.csproj.AssemblyReference.cache
+C:\Users\orea\Documents\ResidentCleaner\obj\Debug\net48\ResidentCleaner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orea\Documents\ResidentCleaner\obj\Debug\net48\ResidentCleaner.AssemblyInfoInputs.cache
+C:\Users\orea\Documents\ResidentCleaner\obj\Debug\net48\ResidentCleaner.AssemblyInfo.cs
+C:\Users\orea\Documents\ResidentCleaner\obj\Debug\net48\ResidentCleaner.csproj.CoreCompileInputs.cache
+C:\Users\orea\Documents\ResidentCleaner\obj\Debug\net48\ResidentCleaner.dll
+C:\Users\orea\Documents\ResidentCleaner\obj\Debug\net48\ResidentCleaner.pdb
