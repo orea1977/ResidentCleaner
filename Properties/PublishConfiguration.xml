@@ -1,6 +1,6 @@
 <Publish>
 	<!--Id must be set in order to update an existing mod. It is filled automatically after the first publish.-->
-	<ModId Value="" />
+	<ModId Value="165656" />
 	<!--Name of the mod to display to players-->
 	<DisplayName Value="ResidentCleaner" />
 	<!--Short description of the mod-->
@@ -60,13 +60,14 @@ The result (how many cims were checked and deleted) is written to Logs/ResidentC
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.0" />
+	<ModVersion Value="1.0.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.6.*" />
 	<!--Change log for new version. Supports a minimal markdown subset-->
 	<ChangeLog>
 - First release / 首次發佈
 - Options menu with two buttons: clean broken residents, clean all residents / 選項選單提供兩個按鈕：清除異常市民、清除所有外出市民
+- Added source code link / 新增原始碼連結
 	</ChangeLog>
 	   <ExternalLink Type="github" Url="https://github.com/orea1977/ResidentCleaner" />
 </Publish>
